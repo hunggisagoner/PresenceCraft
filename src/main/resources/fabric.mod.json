@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "presencecraft",
+	"version": "${version}",
+	"name": "PresenceCraft",
+	"description": "Adds Discord Rich Presence to Minecraft.",
+	"authors": [
+		"hunggisagoner"
+	],
+	"contact": {
+		"homepage": "https://hunggisagoner.github.io/PresenceCraft/",
+		"sources": "https://github.com/hunggisagoner/PresenceCraft"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/presencecraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			{
+				"value": "com.presencecraft.client.PresenceCraftClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}
