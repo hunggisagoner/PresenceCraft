@@ -14,6 +14,9 @@ group = "com.presencecraft"
 repositories {
     mavenCentral()
     maven("https://jitpack.io")
+    maven("https://maven.fabricmc.net/")
+    maven("https://maven.shedaniel.me/")
+    maven("https://maven.terraformersmc.com/releases/")
 }
 
 loom {
@@ -46,8 +49,17 @@ dependencies {
     implementation("net.java.dev.jna:jna:5.14.0")
     include("net.java.dev.jna:jna:5.14.0")
 
-    discordLib(files("libs/DiscordIPC-0.11.3.jar"))
-    implementation(files("libs/DiscordIPC-0.11.3.jar"))
+    modImplementation("me.shedaniel.cloth:cloth-config-fabric:15.0.140") {
+        exclude(group = "net.fabricmc.fabric-api")
+    }
+
+    modImplementation("com.terraformersmc:modmenu:${providers.gradleProperty("modmenu_version").get()}")
+
+    val discordIpcFile = files("libs/discord-ipc-1.1.jar")
+    
+    implementation(discordIpcFile)
+    
+    discordLib(discordIpcFile)
 }
 
 tasks.processResources {

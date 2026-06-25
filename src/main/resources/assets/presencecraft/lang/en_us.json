@@ -1,0 +1,27 @@
+{
+  "text.autoconfig.presencecraft.title": "PresenceCraft Settings",
+  "text.autoconfig.presencecraft.category.privacy": "Privacy",
+  "text.autoconfig.presencecraft.category.display": "Display",
+  "text.autoconfig.presencecraft.category.default": "Main",
+  
+  "text.autoconfig.presencecraft.option.enableRPC": "Enable Discord RPC",
+  "text.autoconfig.presencecraft.option.enableRPC.@Tooltip": "Enable or disable showing Minecraft status on Discord",
+
+  "text.autoconfig.presencecraft.option.showServerIP": "Show Server IP",
+  "text.autoconfig.presencecraft.option.showServerIP.@Tooltip": "Show the address of the server you are connected to",
+
+  "text.autoconfig.presencecraft.option.showPlayerCount": "Show Player Count",
+  "text.autoconfig.presencecraft.option.showPlayerCount.@Tooltip": "Show how many players are currently on the server",
+
+  "text.autoconfig.presencecraft.option.showPlayerFace": "Show Player Avatar",
+  "text.autoconfig.presencecraft.option.showPlayerFace.@Tooltip": "Show your character skin on Discord",
+
+  "text.autoconfig.presencecraft.option.showMinecraftVersion": "Show Minecraft Version",
+  "text.autoconfig.presencecraft.option.showMinecraftVersion.@Tooltip": "Show the game version you are playing",
+
+  "text.autoconfig.presencecraft.option.showDimension": "Show Dimension",
+  "text.autoconfig.presencecraft.option.showDimension.@Tooltip": "Show whether you are in the Overworld, Nether, or End",
+
+  "text.autoconfig.presencecraft.option.showSurvivalDay": "Show Survival Day",
+  "text.autoconfig.presencecraft.option.showSurvivalDay.@Tooltip": "Show how many days you have survived in the world"
+}

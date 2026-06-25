@@ -20,7 +20,13 @@
 				"value": "com.presencecraft.client.PresenceCraftClient",
 				"adapter": "kotlin"
 			}
-		]
+		],
+		"modmenu": ["com.presencecraft.client.config.ModMenuIntegration"]
+	},
+  	"custom": {
+    	"modmenu": {
+      		"badges": ["client"]
+    }
 	},
 	"depends": {
 		"fabricloader": ">=0.19.2",
