@@ -30,8 +30,11 @@ Adds Discord Rich Presence support to Minecraft.
 - **Show Dimension**: Whether to show your current dimension in your Rich Presence.
 - **Show Survival Day**: Whether to show your survival day count.
 
-# Preview
+## Preview
 ![RPC Text Preview](https://cdn.modrinth.com/data/cached_images/97b33cf77db783ceb09429c5a3dd3b012b898eaa.png)
+
+## Issues
+- If project has any issues, please make a issues report in [here](https://github.com/hunggisagoner/PresenceCraft/issues)
 
 ## Dependencies
 **Required mods**:
